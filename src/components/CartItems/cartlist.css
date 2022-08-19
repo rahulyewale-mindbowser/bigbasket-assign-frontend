@@ -1,0 +1,178 @@
+.cartlist {
+    /* margin-top: 6rem; */
+    background-color: #F2F2F2;
+    width: 48vw;
+    float: right;
+    height: auto;
+}
+
+.cartul {
+    max-height: 40vh;
+    overflow-y: scroll;
+}
+
+.cartCheckout {
+    display: flex;
+    width: 37rem;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+
+}
+
+.cartcheckoutlist li {
+    width: 35rem;
+    height: auto;
+}
+
+.cartCheckout p {
+    background-color: #fff;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+.subTotal {
+    width: 13rem;
+}
+
+.subtotal_sub {
+    text-align: left;
+    background-color: #fff;
+    padding: 1px 1rem;
+    margin-bottom: .5rem;
+}
+
+.subTotal span {
+    float: right;
+
+}
+
+.subTotal button {
+    color: #fff;
+    background-color: #84C229;
+    border: none;
+    padding: .7rem;
+    width: 13rem;
+}
+
+.backbutton {
+    background-color: #FCE27A;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #f1e08e;
+    text-transform: uppercase;
+    box-shadow: 3px 2px 5px #ccc;
+    padding: .1rem 1rem;
+    align-items: center;
+
+}
+
+@media only screen and (max-width:600px) {
+    .cartlist {
+        width: 75vw;
+    }
+
+    .cartul {
+        padding: 1px;
+    }
+
+    .cartcheckoutlist li {
+        width: 14rem;
+    }
+
+    .cartul li {
+        width: 16rem;
+    }
+
+    .cartCheckout {
+        flex-direction: column;
+        width: 14rem;
+        font-size: 10px;
+    }
+}
+
+/* @media only screen and (max-width:768px) {
+    .cartlist {
+        width: 75vw;
+    }
+
+    .cartul {
+        padding: 1px;
+    }
+
+    .cartcheckoutlist li {
+        width: 14rem;
+    }
+
+    .cartul li {
+        width: auto;
+    }
+
+    .cartCheckout {
+        width: 33rem;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .cartlist {
+        width: 75vw;
+    }
+
+    .cartul {
+        padding: 1px;
+    }
+
+    .cartcheckoutlist li {
+        width: 14rem;
+    }
+
+    .cartul li {
+        width: auto;
+    }
+
+    .cartCheckout {
+        width: 43rem;
+        font-size: 15px;
+    }
+}*/
+@media only screen and (min-width:992px)and(max-width:1200px) {
+    .cartlist {
+        width: auto;
+    }
+
+
+    .cartcheckoutlist li {
+        width: 13rem;
+    }
+
+    .cartul li {
+        width: auto;
+    }
+
+    .cartCheckout {
+        width: auto;
+        font-size: 11px;
+    }
+} 
+
+@media only screen and (min-width:1200px)and(max-width:1400px) {
+    .cartlist {
+        width: auto;
+    }
+
+
+    .cartcheckoutlist li {
+        width: 35rem;
+    }
+
+    .cartul li {
+        width: auto;
+    }
+
+    .cartCheckout {
+        font-size: 15px;
+    }
+}

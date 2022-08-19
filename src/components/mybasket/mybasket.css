@@ -1,0 +1,11 @@
+.mybasket{
+    display: flex;
+    align-items: center;
+    border: none;
+    width: 10rem;
+    
+}
+.basketimg{
+    width: 3rem;
+    height: 3rem;
+}

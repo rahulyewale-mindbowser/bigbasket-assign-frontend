@@ -1,0 +1,112 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin: auto;
+    width: 80vw;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    font: 400 12px Roboto Slab, serif;
+    padding: 8px;
+    border: none;
+}
+
+th {
+    background-color: #555555;
+    color: #fff;
+
+    padding: 12px 0;
+}
+
+tr {
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.totalcontainer {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttonGroup {
+    display: inline-flex;
+}
+
+.buttonGroup button {
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.totalbuttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.totalbuttons button {
+    border: none;
+    background-color: #f1e08e;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.removeicon {
+    margin: 5em;
+}
+
+.subtotal {
+    font-size: 12px;
+    text-align: left;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+    width: 40vw;
+    line-height: 1.5rem;
+}
+
+.subtotal span {
+    float: right;
+}
+
+.subtotal button {
+    display: flex;
+    float: right;
+    background-color: #FCE27A;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #f1e08e;
+    text-transform: uppercase;
+    box-shadow: 3px 2px 5px #ccc;
+    padding: .1rem 1rem;
+    align-items: center;
+
+}
+
+
+@media only screen and (max-width:600px) {
+    .removeicon {
+        margin: 1em;
+    }
+
+    table {
+        width: 100%;
+    }
+    .totalbuttons button {
+        border: none;
+        background-color: #f1e08e;
+        width: 9rem;
+        height: 2rem;
+        border-radius: 5px;
+    }
+}
+
+@media only screen and (min-width:1200px)and (max-width:1400px) {
+    table{
+        width: 80vw;
+    }
+}
