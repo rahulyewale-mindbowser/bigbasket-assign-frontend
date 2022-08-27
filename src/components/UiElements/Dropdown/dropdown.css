@@ -1,0 +1,43 @@
+.dropdown-main{
+display: flex;
+margin: 0 5rem;
+height: 2rem;
+align-items: center;
+border: 1px ridge #6b68685e;
+}
+.dropdown {
+border: none !important;
+outline: none !important;
+color: #FFF;
+background-color: #84C229;
+height: 100%;
+text-transform: uppercase;
+font: 15px ProximaNovaA-Bold!important;
+
+}
+
+.dropdown option{
+    background-color: beige;
+}
+.offers:hover{
+background-color: #609c06;
+max-height: 100%;
+border: none !important;
+}
+.offers{
+    padding-left: 1rem;
+    display: flex;
+    font-size: 1rem;
+    padding-top: 15px;
+    height: 100%;
+
+}
+.offers :first-child{
+    color: #DB3C1E;
+}
+
+@media only screen and (max-width:600px){
+    .dropdown-main{
+        margin:0 1rem;
+    }
+}

@@ -1,6 +1,6 @@
 export const container ={
     alignItems:'center',
-    marginTop:'6rem'
+    marginTop:'5rem'
 }
 
 export const Gridcontainer ={

@@ -5,7 +5,7 @@ import { Badge } from "@mui/material";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import "./mybasket.css";
 import { useDispatch, useSelector } from "react-redux";
-import { getcartItems } from "../Slices/CartSlice";
+import { getcartItems } from "../../redux/Slices/CartSlice";
 import CartModal from "../UiElements/Modal/CartModal";
 import { useState } from "react";
 const Mybasket = () => {

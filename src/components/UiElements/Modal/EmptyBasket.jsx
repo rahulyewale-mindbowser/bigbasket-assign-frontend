@@ -4,7 +4,7 @@ import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
 import DialogTitle from "@mui/material/DialogTitle";
 import { useDispatch } from 'react-redux';
-import { getcartItems } from '../../Slices/CartSlice';
+import { getcartItems } from '../../../redux/Slices/CartSlice';
 
 const EmptyBasket = ({open,setOpen}) => {
     const dispatch =useDispatch();

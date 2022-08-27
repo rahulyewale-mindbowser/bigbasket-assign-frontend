@@ -2,10 +2,23 @@
     display: flex;
     align-items: center;
     border: none;
-    width: 10rem;
+    width: "auto";
+    padding: 1px 20px;
+    height: 4.2rem;
+    color: #4d4d4d;
+    border-color: #f2f2f2;
+    font: 13px ProximaNovaA-Semibold;
+
     
 }
 .basketimg{
     width: 3rem;
     height: 3rem;
+}
+
+@media only screen and (max-width:600px){
+    .mybasket{
+        padding: 0;
+        height: 0;
+    }
 }

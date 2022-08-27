@@ -1,0 +1,43 @@
+.wrapper{
+    padding: 1rem;
+    border: 1px solid black;
+    text-align: left;
+    margin: 1rem 5rem;
+    font-weight: 300;
+    font-family: ProximaNovaA-Regular !important;
+    color: #333333;
+    line-height: 1.3em;
+    
+}
+.wrapper p{
+    font-weight: 200;
+    font-size: 14px;
+    color: #6B6868 !important;
+    padding: .5rem 0;
+}
+.wrapper h2{
+    font-weight: 500;
+}
+.wrapper ul{
+    padding:.5rem 0 .5rem 3rem;
+}
+.wrapper li{
+    list-style-type:disc;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-size: 14px;
+
+}
+
+.links{
+    text-decoration: none;
+    color: #84C229;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:600px){
+    .wrapper{
+        margin:1rem
+    }
+}

@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./cartlist.css";
 import { useEffect } from "react";
-import { getcartItems } from "../Slices/CartSlice";
+import { getcartItems } from "../../redux/Slices/CartSlice";
 import { useDispatch, useSelector } from "react-redux";
 import ListItem from "../UiElements/ListItem/ListItem";
 

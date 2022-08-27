@@ -7,7 +7,7 @@ import ClearIcon from "@mui/icons-material/Clear";
 import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getcartItems, removeItem, updateQuantity } from "../Slices/CartSlice";
+import { getcartItems, removeItem, updateQuantity } from "../../redux/Slices/CartSlice";
 import EmptyBasket from "../UiElements/Modal/EmptyBasket";
 
  const Checkout = () => {
@@ -16,6 +16,10 @@ import EmptyBasket from "../UiElements/Modal/EmptyBasket";
 
   const dispatch = useDispatch();
   const cartList = useSelector((state) => state.cartItems);
+  let itemCount = 0;
+  if (cartList.cartItems) {
+    itemCount = cartList.cartItems.length;
+  }
   const { loading, cartItems, error } = cartList;
 
   useEffect(() => {
@@ -32,6 +36,11 @@ import EmptyBasket from "../UiElements/Modal/EmptyBasket";
   let total = 0;
   let delivery_charge = 30;
   return (
+    <>
+    <div className="baskettitle">
+      <h4>Your Basket({itemCount} item)</h4>
+    </div>
+    <hr />
     <div style={{ marginTop: "6rem" }}>
       {loading ? (
         <h1>Loading..</h1>
@@ -146,6 +155,7 @@ import EmptyBasket from "../UiElements/Modal/EmptyBasket";
       </div>
       <EmptyBasket open={open} setOpen={setOpen}/>
     </div>
+    </>
   );
 };
 export default Checkout;

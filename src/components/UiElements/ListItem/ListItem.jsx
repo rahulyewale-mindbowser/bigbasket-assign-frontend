@@ -8,8 +8,8 @@ import {
   getcartItems,
   removeItem,
   updateQuantity,
-} from "../../Slices/CartSlice";
-import { getproducts } from "../../Slices/ProductListSlice";
+} from "../../../redux/Slices/CartSlice";
+import { getproducts } from "../../../redux/Slices/ProductListSlice";
 const ListItem = ({ product }) => {
   const dispatch = useDispatch();
 

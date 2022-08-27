@@ -1,0 +1,30 @@
+
+.bank-offers{
+    margin: 1rem 5rem 0 5rem;
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 1rem; */
+    flex-wrap: wrap;
+}
+
+.bank-offers img{
+    width: 15rem;
+    height: 15rem;
+}
+
+@media only screen and (max-width:600px){
+    .bank-offers{
+        margin: 1rem 5rem 0 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: space-between;
+        flex-wrap: wrap;
+    }
+    .bank-offers img{
+        margin-top: 2rem;
+    }
+    
+
+    
+}

@@ -1,3 +1,11 @@
+.baskettitle{
+    font: 300 24px/24px Roboto Slab,serif;
+    color: #58595b;
+    margin: 0;
+    padding: 0 0 0 5rem;
+    text-align: left;
+}
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;

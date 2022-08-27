@@ -1,3 +1,4 @@
+
 export const typographyStyle = {
   fontSize: ".8rem",
   fontWeight: "200",
@@ -5,7 +6,7 @@ export const typographyStyle = {
 };
 
 export const buttonStyle = {
-  backgroundColor: "#F9DA79",
+  backgroundColor: "#FBDF7A",
   color: "#000",
   borderRadius: ".2rem",
   height: "1.5rem",
